@@ -41,7 +41,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"dogCell"];
     Dog *dog = [self.dogs objectAtIndex:indexPath.row];
-A
+
     cell.textLabel.text = dog.name;
     cell.detailTextLabel.text = dog.breed;
     return cell;
